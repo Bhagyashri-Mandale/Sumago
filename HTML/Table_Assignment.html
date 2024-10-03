@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Assignment1</title>
+</head>
+<body>
+    <table border="1" cellpadding="10">
+        <thead>
+            <th>&lt;Level&gt;</th>
+            <th colspan="5">OutBoundPayment</th>
+            
+         </thead>
+         <thead>
+            <th colspan="2">&lt;Sort Ascending&gt;</th>
+        
+            <th colspan="4">Payee/Name</th>
+            
+         </thead>
+         <thead>
+            <th>&lt;Position&gt;</th>
+            <th>&lt;Length&gt;</th>
+            <th>&lt;Format&gt;</th>
+            <th>&lt;PAD&gt;</th>
+            <th>&lt;Data&gt;</th>
+            <th>&lt;Comment&gt;</th>
+         </thead>
+         <thead>
+            <th>&#60;New Record&#62;</th>
+            <th colspan="5">Entry&#95;Detail&#95;CR</th>
+         </thead>
+         <tbody>
+            <tr><td>1</td><td>2</td><td>Number</td><td>L,&#39;0&#39;</td><td>6</td><td>Record Type</td></tr>
+            <tr><td>2</td><td>2</td><td>Alpha</td><td>R,&#39;&#39;</td><td>DECODE(PaymentAmoun/Value,0,&#39;23&#39;,&#39;22&#39;)</td><td>Transaction</td></tr>
+            <tr><td>4</td><td>9</td><td>Number</td><td>L,&#39;0&#39;</td><td>PayeeBankAccount/BranchNumer</td><td>Receiving</td></tr>
+            <tr><td>13</td><td>17</td><td>Alpha</td><td>R,&#39;&#39;</td><td>PayeeBankAccount/BranchNumer</td><td>DFI Account</td></tr>
+            <tr><td>30</td><td>10</td><td>Number,Integer</td><td>L,&#39;0&#39;</td><td>PaymentBankAccount/Value*100</td><td>Amount</td></tr>
+            <tr><td>40</td><td>15</td><td>Alpha</td><td>R,&#39;&#39;</td><td>PaymentBankAccount/PaymentReferenceNumber<td>Identification</td></td></tr>
+            <tr><td>55</td><td>22</td><td>Alpha</td><td>R,&#39;&#39;</td><td>NVL(Payee/AlternateName,Payee/Name)</td><td>Receiving Number</td></tr>
+
+            
+         </tbody>
+    </table>
+</body>
+</html>

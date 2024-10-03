@@ -1,0 +1,41 @@
+*p{
+    background-color: cadetblue;
+}
+#image_banner
+{
+    margin: 40px 50px;
+}
+#para1
+{
+    padding:20px 40px;
+    margin:40px 50px;
+   background-color:#faebd7;
+}
+.para2
+{
+    padding:20px 50px ;
+    margin: 40px 50px;
+   background-color:#ffe4c4;
+}
+#table_head
+{
+
+    background-color:#7fffed;
+}
+.table_background
+{
+    background-color: azure;
+}
+.Link_titles
+{
+    font-size: x-large;
+}
+#back_color
+{
+   background-color: #ff69b4; 
+}
+#registered
+{
+    color: #808080;
+text-align: center;
+}

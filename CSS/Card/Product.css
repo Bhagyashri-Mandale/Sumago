@@ -1,0 +1,81 @@
+body{
+    max-width: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+h1{
+    text-align: center;
+    font-size: 1px;
+    margin: 0;
+    padding-top: 10px;
+}
+.Product-gallary
+{
+    display: flex;
+    /*flex-wrap: wrap;*/
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+}
+.Card
+{
+    width:600px;
+    margin:15px;
+    box-sizing: border-box;
+    text-align:center;
+    border-radius: 20px;
+    padding-top: 10px;
+    box-shadow: 0 10px 20px;
+  background: white;
+}
+.Card:hover
+{
+box-shadow: 0 3px 4px;
+}
+img
+{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin:0 auto;
+}
+p{
+    text-align: center;
+    color:gray;
+    padding-top: 8px;
+}
+h6{
+    font-size: 25px;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+ 
+    justify-content: center;
+}
+li
+{
+    padding-inline: 10px;
+    padding-top: 0;
+}
+fa{
+    font-size: 20px;
+ align-items: center;
+}
+.checked
+{
+    color: orange;
+}
+button
+{ font-size: 20px;
+    text-align: center;
+    width:310px ;
+    border-radius: 10px;
+}
+.buy-button
+{
+    background-color: pink;
+}

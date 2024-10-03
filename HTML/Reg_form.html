@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <form>
+        <table border="1" width="100%">
+            <thead><th colspan="6" style="padding: 20px;">Student Registration Form</th></thead><tbody>
+            <tr><th colspan="1"><label for="Name">Name</label></th>
+            <td colspan="1"><input type="text"  name="Name"></td>
+            <th><label for="address">Address</label></th>
+            <td><input type="text"  name="address"></td>
+        </tr>
+        <tr><th><label for="username">Username</label></th>
+          <td><input type="text"  name="username"></td>
+          <th><label for="pwd">Password</label></th>
+          <td><input type="password"  name="password"></td>
+         </tr>
+         <tr><th><label for="city">City</label></th>
+            <td><select>
+                <option>Select Here</option>
+                <option>Nashik</option>
+                <option>Pune</option>
+                <option>Solapur</option>
+                <option>Mumbai</option>
+                <option>Nagpur</option>
+            </select></td>
+            <th><label for="State">State</label></th>
+            <td><select>
+                <option>Select Here</option>
+                <option>maharashtra</option>
+                <option>Gujrat</option>
+                <option>Andhra Pradesh</option>
+                <option>Karnataka</option>
+                <option>Kerala</option>
+            </select></td>
+        </tr>
+       <tr> <th><label for="country">Country</label></th>
+        <td><select>
+            <option>Select Here</option>
+            <option>India</option>
+            <option>America</option>
+            <option>Singapur</option>
+            <option>London</option>
+            
+        </select></td>
+        <th><label for="nationality">Nationality</label></th>
+        <td><input type="text"  name="nationality"></td>
+    </tr>
+    <tr><th><label for="gender" >Gender</label></th>
+    <td><input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+    </td>
+    <th><label for="Qualification">Qualification:</label></th>
+     <td><input type="checkbox" name="qualificaion" value="BTECH">BTECH
+        <input type="checkbox" name="qualificaion" value="MBA">MBA
+        <input type="checkbox" name="qualificaion" value="MCA">MCA
+        <input type="checkbox" name="qualificaion" value="BCS">BCS
+        <input type="checkbox" name="qualificaion" value="MBBS">MBBS
+    </td></tr>
+    <tr><th><label for="courses">Courses</label></th>
+    <td><select>
+        <option>Select Here</option>
+        <option>Full stack Web Development</option>
+    <option>Full stack Java Development</option>
+    <option>Python Development</option>
+    <option>Data Science</option>
+    <option>UI/UX Designing</option></td>
+    <th><label for="photo">Photo</label></th><td><input type="file"></td>
+</tr>
+<tr><th><label for="hobby">Hobbies</label></th>
+    <td><input type="text"  name="hobby"></td>
+    <th><label for="mobile">Mobile</label></th>
+    <td><input type="tel"  name="mobile"></td></tr>
+    <tr><th colspan="2"><input type="Submit" value="Submit"></th><th colspan="2">
+       <a href="Login_form.html"><input type="button" value="Login"></th></a></tr>
+       </tbody> </table>
+    </form>
+</body>
+</html>
