@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+          <!--offcanvas start-->
+             <div class="col-md-4">
+               <div class="offcanvas offcanvas-start show text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkLabel">OSEN</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <h5>Dash</h5>
+                      <ul>
+                        <li>Sales</li>
+                        <li>Clinic</li>
+                        <li>
+                            eWallet
+                        </li>
+                        </ul>
+
+                      <h5>Apps&Pages</h5>
+                      <ul>
+                        <li>Chat</li>
+                        <li><i class="fa fa-calendar" style="font-size:24px"></i>Calender</li>
+                        <li>E-mail </li>
+                        </ul>
+                    </div>
+                  </div>
+                  </div> 
+                  <!--offcanvas end-->
+
+                 <div class="col-md-8 p-md-0 m-md-0">
+                    <!--header start-->
+                    
+                            <div class="card-header bg-dark mr-0 rounded-0 ">
+                                <div class="card-body d-flex justify-content-between p-1">
+                                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDark" aria-controls="offcanvasDark" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon rounded-5 bg-light"><i class="fa fa-dot-circle-o" style="font-size:25px;"></i></span>
+              </button>
+                            <form class="d-flex " role="search">
+                                <input class="form-control me-2 bg-secondary border border-0" type="search" placeholder="Search something" aria-label="Search">
+                                <button class="btn btn-outline-success bg-transparent border border-0" type="submit">K</button>
+                              </form>
+                              
+                              <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle text-white-50 bg-transparent border border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                  Pages
+                                </button>
+                               
+                                <ul class="dropdown-menu">
+                                  <li><a class="dropdown-item" href="#">UI Components</a></li>
+                                  <li><a class="dropdown-item" href="#">Applications</a></li>
+                                  <li><a class="dropdown-item" href="#">Extra Pages</a></li>
+                                </ul>
+                              </div>
+                              <i style="font-size:20px; color: darkgray;" class="fa">&#xf0f3;</i>
+                                <i class="fa fa-cog" style="font-size:24px;color: darkgray;"></i>
+                                <i class="fa fa-sun-o" style="color: darkgray;"></i>
+                              
+                                    <div class="image d-flex">
+                                    
+                                        <img src="E:\Sumago\CSS\Card\Picture1.jpg" class="rounded-circle" width="50px" height="50px">
+                                   
+                                    <div class="dropdown">
+                                        <button class="btn btn-secondary dropdown-toggle text-white-50 bg-transparent border border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                          Shree M.
+                                        </button>
+                                        <ul class="dropdown-menu">
+                                          <li><a class="dropdown-item" href="#">Profile</a></li>
+                                          <li><a class="dropdown-item" href="#">Password</a></li>
+                                          <li><a class="dropdown-item" href="E:\Sumago\Bootstrap\Login_form.html">Logout</a></li>
+                                        </ul>
+                                      </div> 
+                                    </div>
+                                
+                              
+                            </div>
+                          </div>
+                        <!--header end-->
+        
+        
+                        <!--breadcrumb items-->
+                            <div class="col-md-12 p-md-0 mt-3 bg-secondary">
+                            <nav   style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                             <ol class="breadcrumb">
+                               <li class="breadcrumb-item text-white-50">Brands</li>
+                               <li class="breadcrumb-item active text-white-50 " aria-current="page">Listing</li>
+                               
+                                 </ol>
+                                 <!-- <button type="button" class="btn btn-outline-light text-white-50" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Brand+
+                                </button> -->
+                                <div class="p-md-0 border border-0  d-flex justify-content-end">
+                             <!-- Button trigger modal add brands--> 
+                                   <button type="button" class="btn btn-outline-light text-white-50" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Brand+
+                                  </button></div> 
+                          
+                           </nav>
+                          <!--table of brands start-->
+                           <table class="table table-dark table-striped-columns text-white-50 mt-2">
+                            
+                              <thead class="text-uppercase">
+                              <th>Clothing</th>
+                              <th>Established</th>
+                              <th>Stores</th>
+                              <th>Products</th>
+                              <th>Status</th>
+                              </thead>
+                              <tbody>
+                                <tr><td>Zaroan - Brazil</td>
+                                  <td>Since 2020</td>
+                                  <td>1.5k</td>
+                                  <td>8,950</td>
+                                  <td> Active</td>
+                                </tr>
+
+                                <tr><td>Jocky-Johns - USA</td>
+                                  <td>Since 1985</td>
+                                  <td>205</td>
+                                  <td>1,258</td>
+                                  <td> Active</td>
+                                </tr>
+                                <tr><td>Ginne - India</td>
+                                  <td>Since 2001</td>
+                                  <td>89</td>
+                                  <td>338</td>
+                                  <td> Active</td>
+                                </tr>
+                                <tr><td>DDoen - Brazil</td>
+                                  <td>Since 1995</td>
+                                  <td>650</td>
+                                  <td>6842</td>
+                                  <td> Active</td>
+                                </tr>
+                                <tr><td>Zoddiak - Canada</td>
+                                  <td>Since 1963</td>
+                                  <td>109</td>
+                                  <td>952</td>
+                                  <td> Active</td>
+                                </tr>
+
+                              </tbody>
+                              </table>
+                            </div>
+                            <!--table end-->
+                            
+                            <div class="col-md-12 mt-3 bg-dark p-0 d-flex justify-content-around">
+                         <div class="col-md-4 mt-3">
+                          <div class="card rounded-2 bg-primary">
+                            <div class="card-header">
+                              Estimated Tax For This Year
+                            </div>
+                            <div class="card-body blockquote">
+                            
+                              <p class="card-text fs-6">We kindly encourage you to review your recent transactions</p>
+                              <a href="#" class="btn btn-info rounded-5">Activate Now</a>
+                            </div>
+                          </div>
+                         </div>
+                         <div class="col-md-4 mt-3">
+                          <div class="card bg-dark rounded-0">
+                            <div class="card-header text-white-50">
+                              Recent Orders:
+                            </div>
+                            <div class="card-body bg-dark">
+                              <!-- <h5 class="card-title"></h5> -->
+                              <ul class="list-group ">
+                                <li class="list-group-item list-group-item-action list-group-item-dark d-flex justify-content-between align-items-center">
+                                  Macro Shoes
+                                  <span class="badge bg-success  rounded-pill">sold</span>
+                                </li>
+                                <li class="list-group-item list-group-item-action list-group-item-dark d-flex justify-content-between align-items-center">
+                                  High Waist Tshirt
+                                  <span class="badge bg-success  rounded-pill">Sold</span>
+                                </li>
+                                <li class="list-group-item list-group-item-action list-group-item-dark d-flex justify-content-between align-items-center">
+                                  Comfirt Chair
+                                  <span class="badge bg-danger  rounded-pill">Return</span>
+                                </li>
+                              </ul>
+                              <a href="#" class="btn btn-secondary btn-link">View All</a>
+                            </div>
+                          </div>
+                         </div>
+                         <!-- <div class="col-md-4 mt-3">
+                          <div class="card">
+                            <div class="card-header">
+                              Featured
+                            </div>
+                            <div class="card-body">
+                              <h5 class="card-title">Special title treatment</h5>
+                              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                              <a href="#" class="btn btn-primary ">Go somewhere</a>
+                            </div>
+                          </div>
+                         </div> -->
+                          </div>
+                             
+                                
+                                <div class="col-md-12 m-md-0 p-0">
+                                 <div class="card-footer bg-dark mt-1">
+                                   <div class="card-body p-3 text-white-50 m-md-0 rounded-0 d-flex justify-content-between">
+                                  
+                                  <h6>Support</h6>
+                                    <h6>Contact Us</h6>
+                                   
+                                  <h6>2024 © Osen - By Coderthemes</h6>
+                                  
+                                   </div>
+                                  </div>
+                                   </div>
+                             
+                          
+              </div>        
+           </div>           
+                         
+      </div>
+     <!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Brand</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body  bg-primary-subtle">
+        <label  for="bname">Brand Name</label>
+        <input class="form-control" type="text">
+        <label  for="year">Established Year</label>
+        <input class="form-control"  type="text">
+        <label for="products">Products</label>
+        <input class="form-control" type="text">
+        <label for="stores">Stores</label>
+        <input class="form-control" type="text">
+        
+      </div>
+      <div class="modal-footer m-md-0 p-0">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
